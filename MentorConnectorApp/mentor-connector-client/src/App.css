@@ -1,0 +1,154 @@
+.title
+{
+  text-transform: capitalize;
+  font-size: 42px;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: 2.5px;
+}
+
+.title-sm
+{
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.side-navigation
+  {
+    border-right: 1px solid #000;
+  }
+
+  .side-nav-img{
+    border-bottom: 1px solid #000;
+    height: 200px;
+    background: url('../public/logo1206.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .navigation-menu
+  {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .navigation-menu:hover
+  {
+    background-color: #f3f6ff;
+  }
+  
+  .main-container
+  {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .main-container::-webkit-scrollbar
+  {
+    display: none;
+  }
+
+  .card-title
+  {
+    text-transform: capitalize;
+    color: #000;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 0;
+}
+.card-title-md
+{
+  text-transform: capitalize;
+  color: #000;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 0;
+}
+.card-text
+{
+  text-transform: capitalize;
+  text-align: justify;
+  color: #000;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  padding: 0;
+  margin: 0;
+}
+.card-text-bold
+{
+  text-transform: lowercase;
+  color: #000;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+.card-label
+{
+  text-transform: capitalize;
+  color: #000;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  background-color: #f3f6ff;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.card-footer
+{
+  background: transparent;
+  border: none;
+}
+.card-btn
+{
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 1px;
+  padding: 12px 32px;
+}
+.card-btn-sm
+{
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 1px;
+  padding: 8px 14px;
+}
+.card-btn-sm:hover
+{
+  color: #fff;
+}
+
+.rating-star{
+  border: 1px solid #000;
+  padding: 5px 10px;
+}
+.rating-star:hover{
+  background: #000;
+  color: #fff;
+}
